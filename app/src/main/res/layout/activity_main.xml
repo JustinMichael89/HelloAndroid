@@ -15,8 +15,8 @@
         android:src="@drawable/udacityimg" />
 
 
-    <TextView
-        android:id="@+id/business_name"
+    <TextView android:id="@+id/business_name"
+        style="@style/TextViewTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/headerImg"
@@ -27,8 +27,8 @@
         android:textSize="34sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/business_address"
+    <TextView android:id="@+id/business_address"
+        style="@style/TextViewTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/business_name"
@@ -41,8 +41,8 @@
         android:textSize="14sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/business_phone_number"
+    <TextView android:id="@+id/business_phone_number"
+        style="@style/TextViewTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/business_address"
@@ -54,8 +54,8 @@
         android:textSize="14sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/business_website_url"
+    <TextView android:id="@+id/business_website_url"
+        style="@style/TextViewTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/business_phone_number"
