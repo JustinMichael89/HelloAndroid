@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="io.paperplane.techpanda.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/headerImg"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/udacityimg" />
+
+
+    <TextView
+        android:id="@+id/business_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerImg"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/business_name"
+        android:textColor="@color/colorText"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/business_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/business_name"
+        android:autoLink="map"
+        android:fontFamily="sans-serif-light"
+        android:includeFontPadding="false"
+        android:paddingBottom="20dp"
+        android:text="@string/business_address"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/business_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/business_address"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif-light"
+        android:paddingBottom="20dp"
+        android:text="@string/business_phone_number"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/business_website_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/business_phone_number"
+        android:autoLink="web"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/business_website_url"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+    <!--
+        Hello Android App coded by Justin Michael for the
+        Lesson 5 "Your First Challenge" project of the Grow With Google
+        Challenge Scholarship Program. This is a showcase of some of the
+        XML learned during the course thus far as well as information
+        I have learned from additional study of the Android Developer
+        Documentation.
+    -->
